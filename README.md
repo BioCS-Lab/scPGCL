@@ -14,8 +14,8 @@ The project uses multiple single-cell proteomics datasets stored in the raw_data
 ·pSCoPE_Huffman.h5ad
 ·pSCoPE_Leduc.h5ad
 ·SCoPE2_Leduc.h5ad
-These datasets are preprocessed using ReGCL-main/create_data.py to generate the following derived datasets:
-| Dataset                   | # Source Files                        |  
+These datasets are preprocessed using scPGCL-main/create_data.py to generate the following derived datasets:
+| Dataset                   |  Source Files                        |  
 | --------------------------| --------------------------------------|
 | SCoPE2_Specht             | SCoPE2_Specht                         | 
 | 1_nanoPOTS&N2             | nanoPOTS.h5ad, N2.h5ad                |
@@ -39,4 +39,4 @@ After constructing the graph data, we further preprocess it using the provided s
 it for downstream training.
 
 ## Training
-After preprocessing, the data can be directly used in graph learning frameworks such as ReGCL.
+After preprocessing, the data can be directly used in graph learning frameworks such as scPGCL.
