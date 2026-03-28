@@ -32,7 +32,7 @@ To prepare the dataset for downstream graph-based learning, we construct a graph
 proteomic data stored in an .h5ad file.
 We provide a script create_graph.py to convert the .h5ad data into a graph structure.
 The generated graph is saved as a PyTorch file (.pt) in:
-ReGCL-main/dataset_bag/
+scPGCL-main/dataset_bag/
 
 ## Data Preprocessing
 After constructing the graph data, we further preprocess it using the provided script data_process.py to prepare 
